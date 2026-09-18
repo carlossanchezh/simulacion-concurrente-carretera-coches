@@ -90,17 +90,25 @@ Los coches se simulan como hilos (`Thread`) que ejecutan el protocolo entrar →
 ## Estructura del proyecto
 
 ```plaintext 
-lib/
-├── aedlib.jar             # Librería que implementa estructuras de datos
-├── cclib-0.4.9.jar        # Librería que implementa los monitores               
-└── jcsp.jar               # Librería que implementa canales y procesos CSP
-
-src/cc/carretera/
-├── Carretera.java          # Interfaz del recurso compartido
-├── CarreteraMonitor.java   # Implementación con monitores
-├── CarreteraCSP.java       # Implementación con JCSP
-├── CarreteraSim.java       # Simulador con GUI Swing
-├── Coche.java              # Hilo que ejecuta el protocolo de un coche
-├── Pos.java                # Clase inmutable (segmento, carril)
-└── Reloj.java              # Hilo que genera ticks periódicos
+.
+├──lib/
+|  ├── aedlib.jar             # Librería que implementa estructuras de datos
+|  ├── cclib-0.4.9.jar        # Librería que implementa los monitores               
+|  └── jcsp.jar               # Librería que implementa canales y procesos CSP
+|
+├──src/cc/carretera/
+|  ├── Carretera.java          # Interfaz del recurso compartido
+|  ├── CarreteraMonitor.java   # Implementación con monitores
+|  ├── CarreteraCSP.java       # Implementación con JCSP
+|  ├── CarreteraSim.java       # Simulador con GUI Swing
+|  ├── Coche.java              # Hilo que ejecuta el protocolo de un coche
+|  ├── Pos.java                # Clase inmutable (segmento, carril)
+|  └── Reloj.java              # Hilo que genera ticks periódicos
+|
+├── INSTRUCTIONS.md            # Instrucciones de instalación y ejecución del proyecto
+└── README.md                  # Descripción del proyecto 
 ```
+
+## Instalación y ejecución
+
+Ver [INSTRUCTIONS.md](INSTRUCTIONS.md)
