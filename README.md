@@ -82,10 +82,9 @@ Los coches se simulan como hilos (`Thread`) que ejecutan el protocolo entrar →
 
 ### Tecnologías
 
-- **Java**
-- **Java Swing**
-- **Monitores**
-- **JCSP**
+- Lenguaje: **Java**
+- Interfaz Gráfica: **Java Swing**
+- Modelo de concurrencia: **Monitores**, **JCSP**
 
 ## Estructura del proyecto
 
